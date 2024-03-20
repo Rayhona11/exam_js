@@ -6,22 +6,81 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.2/css/dataTables.dataTables.min.css">
 </head>
 <body>
+       <!--======= START HEADER =========-->
+     <header>
+        <i class='bx bx-menu menu1' style='color:#111112'  ></i>
+         <h1>Dashboard</h1>
+           <input  placeholder="Search here..." type="text">
+             <!-- Languages -->
+         <select name="" id="">
+            <option value="">Eng (US)</option>
+            <option value="">Rus (RU)</option>
+            <option value="">Uzb (UZ)</option>
+         </select>
+     </header>
+       <!--========= END HEADER =========-->
+
+
+    <!--============ display block by default =============-->
+    <div class="menu">
+      <div style="display: flex; object-fit: cover; gap:20px;" class="logo"><img width="35px" src="./images/dummy logo.png" alt=""><h1>Dobang</h1></div><br>
+        <a href="./doshboard/leaderboard.html"><b><i class='bx bxs-bar-chart-alt-2'></i>Leaderboard</b></a><br>
+        <a href="./doshboard/orders.html"><b><i class='bx bx-cart-add'></i>Order</b></a><br>
+        <a href="./doshboard/products.html"><b><i class='bx bx-notepad'></i>Products</b></a><br>
+        <a href="./doshboard/sales.html"><b><i class='bx bx-line-chart'></i>Sales Report</b></a><br>
+        <a href="./doshboard/messages.html"><b><i class='bx bx-message-dots'></i>Messages</b></a><br>
+        <a href="./doshboard/settings.html"><b><i class='bx bx-cog'></i>Settings</b></a><br>
+        <a href="./doshboard/sign_out.html"><b><i class='bx bx-log-out bx-flip-horizontal' style='color:#080808'  ></i>Sign out</b></a>
+    </div>
+      <!--============ display block by default =============-->
+
+    
+
+
+      <!--============ HERO START ===============-->
 
 
 
-    <!--============ when we open the dashboard =============-->
-    <a href="./doshboard/leaderboard.html"><i class='bx bxs-bar-chart-alt-2'></i>Leaderboard</a>
-    <a href="./doshboard/orders.html"><i class='bx bx-cart-add'></i>Order</a>
-    <a href="./doshboard/products.html"><i class='bx bx-notepad'></i>Products</a>
-    <a href="./doshboard/sales.html"><i class='bx bx-line-chart'></i>Sales Report</a>
-    <a href="./doshboard/messages.html"><i class='bx bx-message-dots'></i>Messages</a>
-    <a href="./doshboard/settings.html"><i class='bx bx-cog'></i>Settings</a>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="./scripts/jQuery.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.datatables.net/2.0.2/js/dataTables.min.js"></script>
     <script src="./scripts/script.js"></script>
+    <script src="scripts/events.js"></script>
 </body>
 </html>

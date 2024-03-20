@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//  HEADER
+header{
+    display: flex;
+    align-items: center;
+    padding: 5% 8%;
+    gap:70px;
+    .menu1{
+        font-size: 35px;
+        background-color:beige;
+        padding:10px 30px;
+    }
+    h1{
+        font-family: 'Poppins', sans-serif;
+    }
+    input{
+        padding:10px 10px;
+        width:35%;
+        border-radius:25px;
+    }
+    select{
+        background-color:aliceblue;
+        padding:10px;
+         border:none;
+    }
+}
+.menu{
+    display: none;
+}

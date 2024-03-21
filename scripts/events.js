@@ -2,9 +2,13 @@
 let inp = document.querySelector('input')
 let h1 = document.querySelector('h1')
 let menu = document.querySelector('.menu')
-let icon = document.querySelector('.menu1')
+let btn = document.querySelector('.btn')
+let back = document.querySelector('.comeback')
 
-icon.addEventListener('click',()=>{
+btn.addEventListener('click',()=>{
    menu.style.display = "block"
-   menu.style.padding = "7%"    
 })
+back.addEventListener('click',()=>{
+   menu.style.display = "none"
+})
+

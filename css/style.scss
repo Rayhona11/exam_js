@@ -3,21 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    padding: 5%;
+    font-family: 'Poppins', sans-serif;
+}
 
 //  HEADER
 header{
     display: flex;
     align-items: center;
-    padding: 5% 8%;
-    gap:70px;
-    .menu1{
-        font-size: 35px;
-        background-color:beige;
-        padding:10px 30px;
-    }
-    h1{
-        font-family: 'Poppins', sans-serif;
-    }
+    gap:50px;
+    
     input{
         padding:10px 10px;
         width:35%;
@@ -29,6 +25,23 @@ header{
          border:none;
     }
 }
+.btn{
+    background-color: darkblue;
+    color: #fff;
+    padding: 20px 5%;
+    border: none;
+    border-radius:20px;
+}
 .menu{
     display: none;
+    .comeback{
+        background-color: darkblue;
+        color: #fff;
+        padding: 20px 25px;
+        border: none;
+        border-radius: 15px ;
+        margin-top: 20px;
+    }
 }
+
+

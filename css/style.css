@@ -26,7 +26,7 @@ header select {
 }
 
 .btn {
-  background-color: darkblue;
+  background-color: blue;
   color: #fff;
   padding: 20px 5%;
   border: none;
@@ -38,30 +38,14 @@ header select {
   display: none;
 }
 .menu .comeback {
-  background-color: darkblue;
+  background-color: blue;
   color: #fff;
   padding: 20px 25px;
   border: none;
   border-radius: 15px;
   margin-top: 20px;
 }
-
-/* HOVER */
-.btn:hover {
-  background-color: blue;
-  color: aliceblue;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.comeback:hover {
-  background-color: blue;
-  color: aliceblue;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.dobang-pro {
+.menu .dobang-pro {
   background: #5D5FEF;
   color: #fff;
   width: 200px;
@@ -69,9 +53,24 @@ header select {
   padding: 20px 25px;
   border-radius: 20px;
 }
-.dobang-pro .btn-pro {
+.menu .dobang-pro .btn-pro {
   padding: 10px 25px;
   border-radius: 15px;
   color: #5D5FEF;
   border: none;
+}
+
+/* HOVER */
+.btn:hover {
+  background-color: darkblue;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.comeback:hover {
+  background-color: darkblue;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */

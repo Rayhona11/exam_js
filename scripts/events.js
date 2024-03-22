@@ -5,7 +5,6 @@ let menu = document.querySelector('.menu')
 let btn = document.querySelector('.btn')
 let back = document.querySelector('.comeback')
 
-
 // When we opened the Dashboard 
 btn.addEventListener('click',()=>{
    menu.style.display = "block"
@@ -14,6 +13,8 @@ btn.addEventListener('click',()=>{
 back.addEventListener('click',()=>{
    menu.style.display = "none"
 })
+
+
 
 
 

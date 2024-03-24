@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.orders{
+    padding: 5%;
+    font-family: 'Poppins',sans-serif;
+}
+li{
+    list-style: none;
+}
+.order-tittle{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+.orders{
+    /* margin-top:100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.television{
+    max-width:200px;
+    padding:35px;
+    box-shadow: 2px 2px 2px  0px black;
+    text-align: center;
+    border-radius:15px;
+}
+.fridge{
+    max-width:200px;
+    padding:35px;
+    box-shadow: 2px 2px 2px  0px black;
+    text-align: center;
+    border-radius:15px;
+}
+.computer{
+    max-width:200px;
+    padding:40px;
+    box-shadow: 2px 2px 2px  0px black;
+    text-align: center;
+    border-radius:15px;
+}
+.machine{
+        max-width:200px;
+        padding:35px;
+        box-shadow: 2px 2px 2px  0px black;
+        text-align: center;
+        border-radius:15px;
+}
+.telephone{
+    max-width: 200px;
+    padding: 35px;
+    box-shadow: 2px 2px 2px 0px black;
+    text-align: center;
+    border-radius: 15px;
+}
+button{
+    padding: 20px 30px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius:15px;
+}
+img{
+    object-fit: cover;
+}
+
+footer{
+    padding: 20px;
+    color: #fff;
+}
+

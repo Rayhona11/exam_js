@@ -1,24 +1,31 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   padding: 5%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 50px;
 }
+
 header input {
   padding: 10px 10px;
   width: 35%;
   border-radius: 25px;
 }
+
 header select {
   background-color: aliceblue;
   padding: 10px;
@@ -37,6 +44,7 @@ header select {
 .menu {
   display: none;
 }
+
 .menu .comeback {
   background-color: blue;
   color: #fff;
@@ -45,6 +53,7 @@ header select {
   border-radius: 15px;
   margin-top: 20px;
 }
+
 .menu .dobang-pro {
   background: #5D5FEF;
   color: #fff;
@@ -53,11 +62,62 @@ header select {
   padding: 20px 25px;
   border-radius: 20px;
 }
+
 .menu .dobang-pro .btn-pro {
   padding: 10px 25px;
   border-radius: 15px;
   color: #5D5FEF;
   border: none;
+}
+
+.hero {
+  margin-left: 23%;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+.hero .hero-left {
+  max-width: 600px;
+  -webkit-box-shadow: 2px 2px 3px 0px;
+          box-shadow: 2px 2px 3px 0px;
+  padding: 20px;
+}
+
+.hero .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .box .box1 {
+  background-color: #FFE2E5;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.hero .box .box2 {
+  background-color: #FFF4DE;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.hero .box .box3 {
+  background-color: #DCFCE7;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.hero .box .box4 {
+  background-color: #F3E8FF;
+  border-radius: 10px;
+  padding: 15px;
 }
 
 /* HOVER */
@@ -73,4 +133,5 @@ header select {
   color: aliceblue;
   cursor: pointer;
   font-size: 20px;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
